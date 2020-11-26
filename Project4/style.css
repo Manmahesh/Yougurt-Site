@@ -1,0 +1,95 @@
+body {
+  background-image: linear-gradient(to bottom right, #00f490, #00bbc9);
+  font-family: "Open Sans", sans-serif;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-family: "Abril Fatface", cursive;
+}
+.display-4 {
+  font-size: 74px;
+  color: white;
+}
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0);
+  padding: 3px;
+}
+.bg-white {
+  background-color: rgba(255, 255, 255, 0) !important;
+}
+.the-shadow {
+  text-shadow: 2px 3px rgba(7, 7, 7, 0.212);
+}
+
+.shadow-lg {
+  box-shadow: 0 0rem 0rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.top {
+  margin-top: 2rem;
+}
+
+.mb-5,
+.my-5 {
+  margin-bottom: 0rem !important;
+}
+.bg-light {
+  background-color: #f8f9fa04 !important;
+}
+
+.btn-outline-light {
+  border-color: white;
+}
+
+.btn-outline-light:hover {
+  background-color: rgba(255, 255, 255, 0.253);
+}
+.lead {
+  font-size: 2.2rem;
+  color: white;
+  margin-left: 2rem;
+}
+
+.top a {
+  margin-left: 2rem;
+}
+
+.top img {
+  width: 500px;
+  height: auto;
+}
+
+@media (max-width: 760px) {
+  footer {
+    display: block;
+    margin-left: 50px;
+    /* margin-left: 90px; */
+    /* text-align: center; */
+  }
+  .card {
+    margin-bottom: 50px;
+    text-align: center;
+    width: 20rem;
+    height: auto;
+  }
+  .card-text {
+    font-size: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .card img {
+    min-width: 10%;
+    min-height: 10%;
+  }
+  .top img {
+    width: 300px;
+    height: auto;
+    margin-left: 4rem;
+  }
+  .navbar-nav .nav-item {
+    width: 130px;
+  }
+}
