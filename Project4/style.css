@@ -93,3 +93,13 @@ h1 {
     width: 130px;
   }
 }
+
+@media (max-width: 352px) {
+  header img {
+    width: 100px;
+  }
+  body {
+    background-repeat: no-repeat;
+    /* background-position-x: 15px; */
+  }
+}
